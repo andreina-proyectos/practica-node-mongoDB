@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "ac4f1891-f49a-4012-80b7-3befd9c933ae",
+		"name": "USERS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST request to send data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Name",
+							"value": "Freddy",
+							"type": "text"
+						},
+						{
+							"key": "LastName",
+							"value": "Mercury",
+							"type": "text"
+						},
+						{
+							"key": "Phone",
+							"value": "888888888",
+							"type": "text"
+						},
+						{
+							"key": "FavoriteColor",
+							"value": "Yellow",
+							"type": "text"
+						},
+						{
+							"key": "Age",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "Wish",
+							"value": "Under Pressure!",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000",
+					"host": [
+						"localhost"
+					],
+					"port": "4000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST request to send data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Name",
+							"value": "Freddy",
+							"type": "text"
+						},
+						{
+							"key": "LastName",
+							"value": "Mercury",
+							"type": "text"
+						},
+						{
+							"key": "Phone",
+							"value": "888888888",
+							"type": "text"
+						},
+						{
+							"key": "FavoriteColor",
+							"value": "Yellow",
+							"type": "text"
+						},
+						{
+							"key": "Age",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "Wish",
+							"value": "Under Pressure!",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000",
+					"host": [
+						"localhost"
+					],
+					"port": "4000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000",
+					"host": [
+						"localhost"
+					],
+					"port": "4000"
+				}
+			},
+			"response": []
+		}
+	]
+}
